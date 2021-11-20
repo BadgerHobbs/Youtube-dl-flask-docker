@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    
+  youtube-dl-flask-api:
+    image: youtube-dl-flask-api:latest
+    container_name: youtube-dl-flask-api
+    restart: on-failure
+    ports:
+      - 5555:5000
